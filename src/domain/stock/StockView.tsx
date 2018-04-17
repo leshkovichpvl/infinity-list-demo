@@ -41,7 +41,7 @@ export class StockView extends React.PureComponent<IStockViewProps, undefined>{
             {ticker}
         </Col>
         <Col>
-            {null === price ? '—' : `$${price}`}
+            {null === price ? '—' : `$${price.toFixed(2)}`}
         </Col>
         <Col>
             {`$${(capitalization / 1e9).toFixed(2)}B`}
