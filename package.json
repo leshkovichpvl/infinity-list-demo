@@ -1,0 +1,41 @@
+{
+  "name": "infinity-list-demo",
+  "version": "0.0.1",
+  "description": "React infinity loader list",
+  "main": "./main.js",
+  "author": "Leshkovich Pavel",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-serve --content",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.16",
+    "@types/redux-immutable": "^3.0.38",
+    "awesome-typescript-loader": "^5.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "redux-devtools-extension": "^2.13.2",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.8.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-serve": "^0.3.1"
+  },
+  "dependencies": {
+    "emotion": "^9.1.1",
+    "immutable": "^3.8.2",
+    "infinity-list": "git+https://github.com/leshkovichpvl/infinity-list.git",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-emotion": "^9.1.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  }
+}
