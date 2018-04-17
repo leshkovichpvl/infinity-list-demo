@@ -14,7 +14,7 @@ export class EmptyStockView extends React.PureComponent<IEmptyStockViewProps, un
             <Circle/>
             <InlinePlaceholder/>
         </Col>
-        {Array.from({ length: 5 }, (_,n) => <Col key={n}><Placeholder/></Col>)}
+        {Array.from({ length: 6 }, (_,n) => <Col key={n}><Placeholder/></Col>)}
       </Row>;
   }
 }
