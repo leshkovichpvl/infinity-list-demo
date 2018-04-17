@@ -1,1 +1,1 @@
-# Demo for [infinity-list](https://github.com/leshkovichpvl/infinity-list)
+# [Demo](https://leshkovichpvl.github.io/infinity-list-demo/dist/) for [infinity-list](https://github.com/leshkovichpvl/infinity-list)
